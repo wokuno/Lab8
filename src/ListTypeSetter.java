@@ -22,7 +22,15 @@ public class ListTypeSetter {
      * @return the current number of items stored in this object.
      */
     public int currentSize() {
-        return items.length;
+        //return items.length;
+        // this would return the maxItems no matter how many items are in the list
+        int count = 0;
+        for (int i = 0; i < items.length; i++){
+            if (items[i] != null){
+                count++;
+            }
+        }
+        return count; // will always return the same value
     }
 
     /**
@@ -31,8 +39,11 @@ public class ListTypeSetter {
      * @param input the new item.
      */
     public void addToList(String input) {
-        numItems++;
+         // numItems++;
+        // This needs to happen after item is added to list (start counting at 0)
+
         items[numItems] = input;
+        numItems++; // java starts counting at 0
     }
 
 
@@ -44,6 +55,8 @@ public class ListTypeSetter {
         for(int i = 0; i < items.length; i++) {
             items[i] = null;
         }
+        // doesnt reset numItems which will keep counting up otherwise
+        numItems = 0;
     }
 
     /**
