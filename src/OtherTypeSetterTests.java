@@ -3,13 +3,13 @@ public class OtherTypeSetterTests {
         // I didn't want to make four files, so I put all the other tests in one file.
         // just uncomment the test you want to run. Since whitespace is a bit wacky,
 
-        //firstLastTypeSetterTest();
-        //numberedListTypeSetterTest();
-        //labeledListTypeSetterTest();
-        //preSpecifiedMarksTypeSetterTest();
+        firstLastTypeSetterTest();
+        numberedListTypeSetterTest();
+        labeledListTypeSetterTest();
+        preSpecifiedMarksTypeSetterTest();
     }
 
-    /*private static void firstLastTypeSetterTest() {
+    private static void firstLastTypeSetterTest() {
         System.out.println("---FirstLastTypeSetter---");
         FirstLastTypeSetter flts = new FirstLastTypeSetter(10);
         System.out.println(flts.toString()); // no output
@@ -44,7 +44,7 @@ public class OtherTypeSetterTests {
         //  * wolf
         //  * onion
         // (last): lego
-    }*/
+    }
     /*
 ---FirstLastTypeSetter---
 
@@ -65,7 +65,7 @@ public class OtherTypeSetterTests {
 (last): lego
      */
 
-    /*private static void numberedListTypeSetterTest() {
+    private static void numberedListTypeSetterTest() {
         System.out.println("---NumberedListTypeSetter---");
         NumberedListTypeSetter nlts = new NumberedListTypeSetter(10);
         System.out.println(nlts.toString()); // no output
@@ -100,7 +100,7 @@ public class OtherTypeSetterTests {
         // 2. wolf
         // 3. onion
         // 4. lego
-    }*/
+    }
     /*
 ---NumberedListTypeSetter---
 
@@ -121,7 +121,7 @@ public class OtherTypeSetterTests {
  4. lego
      */
 
-    /*private static void labeledListTypeSetterTest() {
+    private static void labeledListTypeSetterTest() {
         System.out.println("---LabeledListTypeSetter---");
         LabeledListTypeSetter llts = new LabeledListTypeSetter("label", 10);
         System.out.println(llts.toString()); // no output
@@ -169,7 +169,7 @@ public class OtherTypeSetterTests {
         // 2. wolf
         // 3. onion
         // 4. lego
-    }*/
+    }
     /*
 ---LabeledListTypeSetter---
 label
@@ -199,7 +199,7 @@ words I like
  * lego
      */
 
-    /*private static void preSpecifiedMarksTypeSetterTest() {
+    private static void preSpecifiedMarksTypeSetterTest() {
         System.out.println("---PreSpecifiedMarksTypeSetter---");
         String[] labels = {"1)", "b.", "C", "the fourth one is as follows", "five is a number", "6."};
         PreSpecifiedMarksTypeSetter psmts = new PreSpecifiedMarksTypeSetter(labels);
@@ -236,7 +236,7 @@ words I like
         // b. wolf
         // C onion
         // the fourth one is as follows lego
-    }*/
+    }
     /*
 ---PreSpecifiedMarksTypeSetter---
 
