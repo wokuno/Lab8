@@ -1,3 +1,8 @@
+/*  Meghana Woodruff    wood143
+    William Okuno       Okuno006
+    lab 8
+*/
+
 /**
  * A class that stores, and typesets, a list of items.
  */
