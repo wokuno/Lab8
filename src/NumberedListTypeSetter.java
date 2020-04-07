@@ -1,3 +1,9 @@
+/*  
+    Meghana Woodruff    wood143
+    William Okuno       Okuno006
+    lab 8
+*/
+
 public class NumberedListTypeSetter extends ListTypeSetter {
 
     public NumberedListTypeSetter(int maxItems) {
