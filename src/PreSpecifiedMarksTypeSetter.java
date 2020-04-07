@@ -1,3 +1,8 @@
+/*  
+    Meghana Woodruff    wood143
+    William Okuno       Okuno006
+    lab 8
+*/
 public class PreSpecifiedMarksTypeSetter extends ListTypeSetter {
 
     private String[] labels;
