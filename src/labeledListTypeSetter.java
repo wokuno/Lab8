@@ -1,3 +1,8 @@
+/*  
+    Meghana Woodruff    wood143
+    William Okuno       Okuno006
+    lab 8
+*/
 public class LabeledListTypeSetter extends ListTypeSetter {
     private String label = "";
     public LabeledListTypeSetter(String string, int maxItems) {
